@@ -1,0 +1,19 @@
+@import "assets/bootstrap-sass/variables";
+
+body{
+  background: $body-background;
+  font-size: smaller;
+  font-family: Arial, Helvetica;
+}
+app-root {
+  //top: 50%;
+  //left: 50%;
+  //transform: translate(-50%, 20px);
+  display: inline-table;
+  position: absolute;
+  margin-bottom: -50%;
+  margin-right: -50%;
+  background: $body-box-background;
+  width: $body-box-width;
+  height: $body-box-height;
+}
